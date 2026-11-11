@@ -83,6 +83,9 @@ Under **App content** &gt; **Data safety**:
 
 ## 📬 Contact & Support
 
-- **Developer:** Pranav Pande ([@wittyrusher](https://github.com/wittyrusher))
+- **Developer:** Ganesh Jadhav
+- **Company / Entity:** AGNG
 - **Email:** [pranavpande2609@gmail.com](mailto:pranavpande2609@gmail.com)
+- **Code & Repository:** [@wittyrusher](https://github.com/wittyrusher)
 - **Location:** Pune, Maharashtra, India
+
