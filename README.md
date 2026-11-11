@@ -85,7 +85,7 @@ Under **App content** &gt; **Data safety**:
 
 - **Developer:** Ganesh Jadhav
 - **Company / Entity:** AGNG
-- **Email:** [pranavpande2609@gmail.com](mailto:pranavpande2609@gmail.com)
+- **Email:** [support@oneindicator.in](mailto:support@oneindicator.in)
 - **Code & Repository:** [@wittyrusher](https://github.com/wittyrusher)
 - **Location:** Pune, Maharashtra, India
 
