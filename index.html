@@ -1,0 +1,1057 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy | One Indicator - Pune Public Transport</title>
+  <meta name="description" content="Official Privacy Policy for One Indicator - Pune Public Transport Android and iOS application. Compliant with Google Play Store User Data Policy, Apple App Store Guidelines, and Indian DPDPA.">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Pranav Pande (wittyrusher)">
+  <link rel="canonical" href="https://wittyrusher.github.io/oneindicatorprivacy/">
+
+  <!-- Open Graph / Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Privacy Policy - One Indicator Pune Public Transport">
+  <meta property="og:description" content="Comprehensive privacy disclosures, permissions breakdown, and data safety compliance for One Indicator Pune Public Transport.">
+  <meta property="og:url" content="https://wittyrusher.github.io/oneindicatorprivacy/">
+
+  <style>
+    :root {
+      --primary: #1e3a8a;
+      --primary-dark: #172554;
+      --primary-light: #3b82f6;
+      --accent: #0284c7;
+      --accent-soft: #e0f2fe;
+      --success: #059669;
+      --success-soft: #d1fae5;
+      --warning: #d97706;
+      --warning-soft: #fef3c7;
+      --danger: #dc2626;
+      --gray-50: #f8fafc;
+      --gray-100: #f1f5f9;
+      --gray-200: #e2e8f0;
+      --gray-300: #cbd5e1;
+      --gray-600: #475569;
+      --gray-700: #334155;
+      --gray-800: #1e293b;
+      --gray-900: #0f172a;
+      --surface: #ffffff;
+      --border: #e2e8f0;
+      --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+      --shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+      --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+      --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: var(--font-family);
+      background-color: var(--gray-50);
+      color: var(--gray-800);
+      line-height: 1.65;
+      font-size: 16px;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* Header & Branding */
+    header.site-header {
+      background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 100%);
+      color: #ffffff;
+      padding: 2.75rem 1.25rem 2.25rem;
+      border-bottom: 4px solid var(--accent);
+      position: relative;
+    }
+
+    .header-container {
+      max-width: 960px;
+      margin: 0 auto;
+    }
+
+    .badge-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      padding: 0.25rem 0.75rem;
+      border-radius: 9999px;
+      font-size: 0.775rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    .badge-primary {
+      background: rgba(255, 255, 255, 0.2);
+      color: #ffffff;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .badge-verified {
+      background: #10b981;
+      color: #ffffff;
+    }
+
+    h1.app-title {
+      font-size: 2.25rem;
+      font-weight: 800;
+      line-height: 1.2;
+      margin-bottom: 0.5rem;
+      letter-spacing: -0.02em;
+    }
+
+    .subtitle {
+      font-size: 1.125rem;
+      color: #bfdbfe;
+      margin-bottom: 1.25rem;
+      max-width: 720px;
+    }
+
+    .meta-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 0.75rem;
+      background: rgba(0, 0, 0, 0.2);
+      padding: 1rem 1.25rem;
+      border-radius: 0.5rem;
+      font-size: 0.875rem;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .meta-item strong {
+      color: #93c5fd;
+      display: block;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    /* Layout */
+    .page-layout {
+      max-width: 960px;
+      margin: 2rem auto;
+      padding: 0 1.25rem;
+      display: grid;
+      grid-template-columns: 260px 1fr;
+      gap: 2rem;
+      align-items: start;
+    }
+
+    @media (max-width: 860px) {
+      .page-layout {
+        grid-template-columns: 1fr;
+        margin-top: 1rem;
+      }
+      .toc-sidebar {
+        display: none !important;
+      }
+    }
+
+    /* Table of contents sidebar */
+    .toc-sidebar {
+      position: sticky;
+      top: 1.5rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 0.75rem;
+      padding: 1.25rem;
+      box-shadow: var(--shadow-sm);
+      max-height: calc(100vh - 3rem);
+      overflow-y: auto;
+    }
+
+    .toc-title {
+      font-size: 0.875rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--gray-600);
+      margin-bottom: 0.75rem;
+      border-bottom: 2px solid var(--gray-100);
+      padding-bottom: 0.5rem;
+    }
+
+    .toc-list {
+      list-style: none;
+      font-size: 0.85rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.4rem;
+    }
+
+    .toc-list a {
+      color: var(--gray-600);
+      text-decoration: none;
+      transition: all 0.15s ease;
+      display: block;
+      padding: 0.25rem 0.5rem;
+      border-radius: 0.375rem;
+    }
+
+    .toc-list a:hover {
+      color: var(--primary-light);
+      background: var(--gray-100);
+      transform: translateX(2px);
+    }
+
+    /* Main Policy Content */
+    main.policy-content {
+      background: var(--surface);
+      border-radius: 0.75rem;
+      border: 1px solid var(--border);
+      padding: 2.25rem;
+      box-shadow: var(--shadow-sm);
+    }
+
+    @media (max-width: 600px) {
+      main.policy-content {
+        padding: 1.25rem;
+      }
+      h1.app-title {
+        font-size: 1.75rem;
+      }
+    }
+
+    /* Callout banners */
+    .compliance-alert {
+      background-color: var(--accent-soft);
+      border-left: 4px solid var(--accent);
+      padding: 1rem 1.25rem;
+      border-radius: 0.375rem;
+      margin-bottom: 2rem;
+      font-size: 0.925rem;
+      color: var(--primary-dark);
+    }
+
+    .compliance-alert strong {
+      display: block;
+      margin-bottom: 0.25rem;
+      font-size: 1rem;
+      color: var(--primary);
+    }
+
+    .highlight-card {
+      background-color: var(--gray-50);
+      border: 1px solid var(--gray-200);
+      border-radius: 0.5rem;
+      padding: 1.25rem;
+      margin: 1.5rem 0;
+    }
+
+    /* Sections */
+    section.policy-section {
+      margin-bottom: 2.5rem;
+      scroll-margin-top: 2rem;
+      border-bottom: 1px solid var(--gray-200);
+      padding-bottom: 2rem;
+    }
+
+    section.policy-section:last-of-type {
+      border-bottom: none;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    h2.section-heading {
+      font-size: 1.45rem;
+      color: var(--primary-dark);
+      margin-bottom: 1rem;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    h3.sub-heading {
+      font-size: 1.15rem;
+      color: var(--gray-800);
+      margin: 1.25rem 0 0.5rem;
+      font-weight: 600;
+    }
+
+    p {
+      margin-bottom: 1rem;
+      color: var(--gray-700);
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+
+    ul, ol {
+      margin: 0.75rem 0 1.25rem 1.5rem;
+      color: var(--gray-700);
+    }
+
+    li {
+      margin-bottom: 0.5rem;
+    }
+
+    /* Tables */
+    .table-container {
+      width: 100%;
+      overflow-x: auto;
+      margin: 1.25rem 0;
+      border-radius: 0.5rem;
+      border: 1px solid var(--gray-200);
+    }
+
+    table.compliance-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.875rem;
+      text-align: left;
+    }
+
+    table.compliance-table th {
+      background-color: var(--gray-100);
+      color: var(--gray-800);
+      font-weight: 700;
+      padding: 0.75rem 1rem;
+      border-bottom: 2px solid var(--gray-200);
+      white-space: nowrap;
+    }
+
+    table.compliance-table td {
+      padding: 0.75rem 1rem;
+      border-bottom: 1px solid var(--gray-200);
+      vertical-align: top;
+      color: var(--gray-700);
+    }
+
+    table.compliance-table tr:last-child td {
+      border-bottom: none;
+    }
+
+    table.compliance-table tr:hover td {
+      background-color: var(--gray-50);
+    }
+
+    .tag-optional {
+      display: inline-block;
+      padding: 0.15rem 0.45rem;
+      background-color: var(--success-soft);
+      color: var(--success);
+      font-size: 0.75rem;
+      font-weight: 600;
+      border-radius: 0.25rem;
+    }
+
+    .tag-required {
+      display: inline-block;
+      padding: 0.15rem 0.45rem;
+      background-color: var(--warning-soft);
+      color: var(--warning);
+      font-size: 0.75rem;
+      font-weight: 600;
+      border-radius: 0.25rem;
+    }
+
+    /* Links & Buttons */
+    a {
+      color: var(--accent);
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+
+    a:hover {
+      color: var(--primary);
+    }
+
+    .action-button {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background-color: var(--primary);
+      color: #ffffff;
+      padding: 0.65rem 1.25rem;
+      border-radius: 0.375rem;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.9rem;
+      margin-top: 0.5rem;
+      transition: background-color 0.15s ease;
+    }
+
+    .action-button:hover {
+      background-color: var(--primary-dark);
+      color: #ffffff;
+    }
+
+    /* Footer */
+    footer.site-footer {
+      background-color: var(--gray-900);
+      color: var(--gray-300);
+      padding: 2.5rem 1.25rem;
+      margin-top: 3rem;
+      font-size: 0.875rem;
+      border-top: 1px solid var(--gray-800);
+    }
+
+    .footer-container {
+      max-width: 960px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .footer-container a {
+      color: #93c5fd;
+    }
+
+    .footer-legal {
+      margin-top: 1rem;
+      font-size: 0.8rem;
+      color: #94a3b8;
+    }
+
+    /* Back to top floating pill */
+    #backToTop {
+      position: fixed;
+      bottom: 1.5rem;
+      right: 1.5rem;
+      background: var(--primary);
+      color: #ffffff;
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      box-shadow: var(--shadow-lg);
+      font-size: 1.2rem;
+      transition: opacity 0.2s, transform 0.2s;
+      opacity: 0.85;
+      z-index: 100;
+    }
+
+    #backToTop:hover {
+      opacity: 1;
+      transform: translateY(-2px);
+      background: var(--primary-dark);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-container">
+      <div class="badge-bar">
+        <span class="badge badge-primary">Public Transport Utility</span>
+        <span class="badge badge-primary">Android &amp; iOS</span>
+        <span class="badge badge-verified">Google Play &amp; App Store Compliant</span>
+      </div>
+      <h1 class="app-title">Privacy Policy</h1>
+      <p class="subtitle">One Indicator &ndash; Pune Public Transport Guide (PMPML Bus, Pune Metro, Local Trains &amp; Auto Fares)</p>
+
+      <div class="meta-grid">
+        <div class="meta-item">
+          <strong>Application Name</strong>
+          <span>One Indicator &ndash; Pune Public Transport</span>
+        </div>
+        <div class="meta-item">
+          <strong>Developer / Publisher</strong>
+          <span>Pranav Pande (wittyrusher)</span>
+        </div>
+        <div class="meta-item">
+          <strong>Effective Date</strong>
+          <span>November 11, 2026</span>
+        </div>
+        <div class="meta-item">
+          <strong>Official Contact</strong>
+          <span><a href="mailto:pranavpande2609@gmail.com" style="color: #ffffff; text-decoration: underline;">pranavpande2609@gmail.com</a></span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Layout -->
+  <div class="page-layout">
+    
+    <!-- Table of Contents Sidebar -->
+    <aside class="toc-sidebar" aria-label="Table of Contents">
+      <div class="toc-title">Policy Sections</div>
+      <ul class="toc-list">
+        <li><a href="#introduction">1. Introduction</a></li>
+        <li><a href="#developer-info">2. Developer Information</a></li>
+        <li><a href="#information-we-collect">3. Information We Collect</a></li>
+        <li><a href="#location-information">4. Location Information</a></li>
+        <li><a href="#transport-searches">5. Transport Searches &amp; Routes</a></li>
+        <li><a href="#device-diagnostics">6. Device &amp; Diagnostics</a></li>
+        <li><a href="#permissions">7. App Permissions Breakdown</a></li>
+        <li><a href="#how-we-use-info">8. How We Use Information</a></li>
+        <li><a href="#third-party-services">9. Third-Party Services</a></li>
+        <li><a href="#information-sharing">10. Information Sharing</a></li>
+        <li><a href="#advertising">11. Advertising Practices</a></li>
+        <li><a href="#data-security">12. Data Security &amp; Encryption</a></li>
+        <li><a href="#retention-deletion">13. Retention &amp; Deletion</a></li>
+        <li><a href="#account-deletion">14. Account &amp; Data Deletion</a></li>
+        <li><a href="#childrens-privacy">15. Children's Privacy</a></li>
+        <li><a href="#user-rights">16. User Privacy Rights</a></li>
+        <li><a href="#international-transfers">17. Data Transfers</a></li>
+        <li><a href="#google-play-safety">18. Google Play Data Safety</a></li>
+        <li><a href="#apple-privacy">19. Apple App Privacy Labels</a></li>
+        <li><a href="#policy-updates">20. Updates &amp; Contact</a></li>
+      </ul>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="policy-content">
+
+      <!-- Prominent Compliance Notice -->
+      <div class="compliance-alert">
+        <strong>Privacy Commitment &amp; Store Compliance Notice</strong>
+        This Privacy Policy strictly adheres to the <strong>Google Play Store Developer Program Policies (User Data, Location, and Data Safety Policies)</strong> and <strong>Apple App Store Review Guidelines (Guideline 5.1 - Privacy and Data Use)</strong>. The <em>One Indicator &ndash; Pune Public Transport</em> app is designed as a privacy-friendly public transit utility. We do not require account registration, do not track you in the background, and never sell your personal information.
+      </div>
+
+      <!-- Section 1 -->
+      <section id="introduction" class="policy-section">
+        <h2 class="section-heading">1. Introduction</h2>
+        <p>
+          Welcome to <strong>One Indicator &ndash; Pune Public Transport</strong> ("One Indicator", "the Application", "we", "us", or "our"). One Indicator is a dedicated public transit utility application engineered to assist commuters, residents, and visitors in the Pune Metropolitan region (Pune and Pimpri-Chinchwad). The Application provides information regarding Pune's public transportation network, including:
+        </p>
+        <ul>
+          <li><strong>PMPML (Pune Mahanagar Parivahan Mahamandal Ltd.)</strong> city bus routes, schedules, stops, and fare charts.</li>
+          <li><strong>Pune Metro (Maha Metro)</strong> Purple Line, Aqua Line, and Hinjawadi Metro Line 3 station maps, timetable, and ticket fares.</li>
+          <li><strong>Pune Suburban Local Trains</strong> (Pune Junction, Shivajinagar, Khadki, Dapodi, Kasarwadi, Pimpri, Chinchwad, Akurdi, Dehu Road, Talegaon, Lonavala) timetables and platforms.</li>
+          <li><strong>Auto Rickshaw and Taxi</strong> tariff cards and fare calculators.</li>
+          <li>Emergency transport helpline numbers, transit announcements, and route planning tools.</li>
+        </ul>
+        <p>
+          We are committed to maintaining the privacy, confidentiality, and security of our users. This Privacy Policy outlines what information is collected, how it is processed locally on your device or via external services, the purpose of each permission requested, and your privacy rights under applicable data protection laws, including the <strong>Digital Personal Data Protection Act (DPDPA 2023)</strong> of India, the <strong>General Data Protection Regulation (GDPR)</strong>, and the <strong>California Consumer Privacy Act (CCPA)</strong>.
+        </p>
+      </section>
+
+      <!-- Section 2 -->
+      <section id="developer-info" class="policy-section">
+        <h2 class="section-heading">2. Developer &amp; Publisher Information</h2>
+        <p>
+          The Application is developed, maintained, and published independently by:
+        </p>
+        <div class="highlight-card">
+          <p><strong>Developer / Publisher Name:</strong> Pranav Pande (GitHub: wittyrusher)</p>
+          <p><strong>Application Title:</strong> One Indicator &ndash; Pune Public Transport</p>
+          <p><strong>Official Support &amp; Privacy Email:</strong> <a href="mailto:pranavpande2609@gmail.com">pranavpande2609@gmail.com</a></p>
+          <p><strong>Official Code &amp; Privacy Repository:</strong> <a href="https://github.com/wittyrusher/oneindicatorprivacy" target="_blank" rel="noopener">https://github.com/wittyrusher/oneindicatorprivacy</a></p>
+          <p><strong>Hosted Privacy Policy URL:</strong> <a href="https://wittyrusher.github.io/oneindicatorprivacy/" target="_blank" rel="noopener">https://wittyrusher.github.io/oneindicatorprivacy/</a></p>
+          <p><strong>Operating Region:</strong> Pune, Maharashtra, India</p>
+        </div>
+        <p>
+          <em>Disclaimer:</em> One Indicator is an independent community transit navigation tool designed for public transit commuters. While it compiles public timetable data from transport operators such as PMPML and Maha Metro, it is an independent application and is not an official government entity.
+        </p>
+      </section>
+
+      <!-- Section 3 -->
+      <section id="information-we-collect" class="policy-section">
+        <h2 class="section-heading">3. Information We Collect</h2>
+        <p>
+          We believe in the principle of strict <strong>Data Minimization</strong>. We only access or collect information that is strictly required to provide transit navigation services.
+        </p>
+        
+        <h3 class="sub-heading">A. Information You Are NOT Required to Provide</h3>
+        <ul>
+          <li><strong>No Personal Identification:</strong> You do NOT need to provide your real name, email address, home address, or phone number to use One Indicator.</li>
+          <li><strong>No Account Registration:</strong> The application functions completely without user registration, usernames, passwords, or social login authentication.</li>
+          <li><strong>No Financial Information:</strong> We do not collect credit cards, debit cards, UPI credentials, or bank details. All timetable and route data is free to access.</li>
+        </ul>
+
+        <h3 class="sub-heading">B. Information Collected or Processed by the Application</h3>
+        <ul>
+          <li><strong>Location Data (Optional, Foreground-Only):</strong> If you grant permission, your device's approximate or precise GPS coordinates are accessed exclusively while the app is active to show nearby bus stops, metro stations, and relevant route connections.</li>
+          <li><strong>Transit Search Queries (Processed Locally):</strong> Station names, bus route numbers, or source/destination stops you search for are processed directly on your device.</li>
+          <li><strong>Device &amp; Diagnostic Information (Automated, Non-Identifiable):</strong> Standard non-identifiable technical data such as device model, OS version, app version, language preference, and anonymous crash telemetry (for debugging application crashes).</li>
+        </ul>
+      </section>
+
+      <!-- Section 4 -->
+      <section id="location-information" class="policy-section">
+        <h2 class="section-heading">4. Location Information (Google Play &amp; App Store Disclosures)</h2>
+        <p>
+          Location access is an <strong>optional feature</strong> designed solely to enhance your commuting experience across Pune.
+        </p>
+        
+        <div class="highlight-card">
+          <h3 style="margin-top:0; font-size:1.05rem; color:var(--primary-dark);">Location Usage Summary</h3>
+          <ul>
+            <li><strong>Purpose:</strong> To calculate distances to the nearest PMPML bus stops, display nearby Pune Metro stations, and sort transit options based on your current vicinity.</li>
+            <li><strong>Type of Location:</strong> Approximate Location (network-based) or Precise Location (GPS-based), depending on the permission granted in your system dialog.</li>
+            <li><strong>Foreground Only:</strong> Location data is accessed <em>only while the application is open and visible on your screen</em> (in the foreground).</li>
+            <li><strong>NO Background Tracking:</strong> One Indicator <strong>never</strong> requests, collects, accesses, or monitors your location in the background or when the app is closed.</li>
+            <li><strong>No Tracking History:</strong> We do not log, record, build profiles of your daily movements, or transmit your geographical coordinates to external marketing servers. Coordinates used for calculating distances to nearby stops are computed ephemerally in volatile memory or via secure map APIs.</li>
+          </ul>
+        </div>
+
+        <h3 class="sub-heading">How to Control or Disable Location Access</h3>
+        <p>
+          Location permission is <strong>completely optional</strong>. You can deny location access during the initial prompt or revoke it at any time:
+        </p>
+        <ul>
+          <li><strong>On Android:</strong> Open <em>Settings &gt; Apps &gt; One Indicator &gt; Permissions &gt; Location</em> and select <em>"Don't allow"</em>.</li>
+          <li><strong>On iOS:</strong> Open <em>Settings &gt; Privacy &amp; Security &gt; Location Services &gt; One Indicator</em> and choose <em>"Never"</em>.</li>
+        </ul>
+        <p>
+          <strong>Notice:</strong> If you deny or revoke location access, all core features of One Indicator remain 100% functional. You can still manually search for any bus number, metro station, local train schedule, or route by typing the station or stop name.
+        </p>
+      </section>
+
+      <!-- Section 5 -->
+      <section id="transport-searches" class="policy-section">
+        <h2 class="section-heading">5. Transport Search Information &amp; Offline Storage</h2>
+        <p>
+          When you search for PMPML bus routes (e.g., Katraj to Swargate, Pune Station to Hinjawadi Phase 3), Pune Metro lines (Vanaz to Ramwadi, PCMC to Civil Court / Swargate), or Pune-Lonavala local train timetables:
+        </p>
+        <ul>
+          <li><strong>Local Query Processing:</strong> Route calculations and schedule lookups are executed against local offline databases or cached datasets stored within your device's private app sandbox.</li>
+          <li><strong>Recent Searches &amp; Bookmarks:</strong> Your saved routes, favorite bus numbers, and recent search history are stored <strong>strictly locally</strong> on your device (using Android Room / SQLite / Shared Preferences / iOS UserDefaults).</li>
+          <li><strong>No Personal Profiling:</strong> We do not associate your transport lookups with any personal identity, email, or advertising profile.</li>
+        </ul>
+      </section>
+
+      <!-- Section 6 -->
+      <section id="device-diagnostics" class="policy-section">
+        <h2 class="section-heading">6. Device Information &amp; Technical Diagnostics</h2>
+        <p>
+          When the application communicates with online services (such as downloading updated PMPML timetables or refreshing transit notices), standard HTTP technical information is exchanged:
+        </p>
+        <ul>
+          <li><strong>Device Model &amp; Manufacturer:</strong> E.g., Samsung Galaxy, Xiaomi, iPhone 14. Used to ensure correct UI rendering and layout scaling.</li>
+          <li><strong>Operating System &amp; Build Version:</strong> E.g., Android 14, iOS 17. Used to verify API compatibility.</li>
+          <li><strong>Application Version:</strong> E.g., Version 1.0.0. Used to check for necessary schedule updates.</li>
+          <li><strong>Crash Logs &amp; Stack Traces:</strong> In the event of an unexpected crash or freeze, an anonymous diagnostic log (excluding personal files or identifying data) may be collected via Google Play Console or Firebase Crashlytics to resolve bugs and prevent future crashes.</li>
+          <li><strong>IP Address:</strong> Received ephemerally by servers during network requests to deliver timetable files, as required by the standard TCP/IP networking protocol. IP addresses are not stored or used to track individual users.</li>
+        </ul>
+      </section>
+
+      <!-- Section 7 -->
+      <section id="permissions" class="policy-section">
+        <h2 class="section-heading">7. Application Permissions Breakdown</h2>
+        <p>
+          In accordance with Google Play's <em>Permissions and APIs that Access Sensitive Information Policy</em>, the following table details every permission declared or utilized by the One Indicator mobile application:
+        </p>
+
+        <div class="table-container">
+          <table class="compliance-table">
+            <thead>
+              <tr>
+                <th>Permission Name</th>
+                <th>Type</th>
+                <th>Status</th>
+                <th>Why It Is Needed</th>
+                <th>Effect If Denied</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><code>android.permission.ACCESS_FINE_LOCATION</code></td>
+                <td>Runtime (Sensitive)</td>
+                <td><span class="tag-optional">Optional</span></td>
+                <td>Accesses precise GPS coordinates to find nearest PMPML bus stops and Pune Metro stations from your current spot.</td>
+                <td>The app cannot auto-detect your nearest stop. You can manually enter or search any stop name.</td>
+              </tr>
+              <tr>
+                <td><code>android.permission.ACCESS_COARSE_LOCATION</code></td>
+                <td>Runtime (Sensitive)</td>
+                <td><span class="tag-optional">Optional</span></td>
+                <td>Accesses approximate network location to provide transit information for your general neighborhood or area.</td>
+                <td>The app cannot auto-detect your area. Manual search remains fully functional.</td>
+              </tr>
+              <tr>
+                <td><code>android.permission.INTERNET</code></td>
+                <td>Install-Time (Normal)</td>
+                <td><span class="tag-required">Required</span></td>
+                <td>Allows the application to fetch updated bus/metro timetables, fare alerts, route changes, and map imagery.</td>
+                <td>The app will operate strictly in offline mode using pre-packaged or previously cached timetable data.</td>
+              </tr>
+              <tr>
+                <td><code>android.permission.ACCESS_NETWORK_STATE</code></td>
+                <td>Install-Time (Normal)</td>
+                <td><span class="tag-required">Required</span></td>
+                <td>Checks whether your device has an active Wi-Fi or cellular internet connection before initiating data downloads.</td>
+                <td>The app may attempt network requests while offline, leading to generic timeout errors.</td>
+              </tr>
+              <tr>
+                <td><code>NSLocationWhenInUseUsageDescription</code> (iOS)</td>
+                <td>Runtime (iOS)</td>
+                <td><span class="tag-optional">Optional</span></td>
+                <td>Informs iOS users why location access is requested: "One Indicator uses your location to discover nearby Pune bus stops and metro stations while you use the app."</td>
+                <td>Nearest transit stations cannot be automatically sorted; all manual search tools remain fully operational.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="highlight-card">
+          <p><strong>Explicit Declaration of Non-Requested Permissions:</strong></p>
+          <p>
+            One Indicator <strong>DOES NOT REQUEST OR USE</strong>:
+          </p>
+          <ul style="margin-bottom:0;">
+            <li>No Background Location (<code>ACCESS_BACKGROUND_LOCATION</code>)</li>
+            <li>No Camera or Video Recording (<code>CAMERA</code>)</li>
+            <li>No Microphone or Audio Recording (<code>RECORD_AUDIO</code>)</li>
+            <li>No Contacts or Address Book Access (<code>READ_CONTACTS</code>)</li>
+            <li>No SMS, Call Logs, or Phone State Access (<code>READ_SMS</code>, <code>READ_PHONE_STATE</code>)</li>
+            <li>No External Shared Storage Access (<code>READ_EXTERNAL_STORAGE</code> / <code>MANAGE_EXTERNAL_STORAGE</code>)</li>
+            <li>No Biometric or Health Information</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Section 8 -->
+      <section id="how-we-use-info" class="policy-section">
+        <h2 class="section-heading">8. How We Use Information</h2>
+        <p>
+          All data processed by One Indicator is used strictly for legitimate, user-facing public transit navigation purposes:
+        </p>
+        <ol>
+          <li><strong>Displaying Transit Routes &amp; Nearby Stops:</strong> Computing walking distance and transit options from your current coordinates to nearby PMPML stops and Pune Metro stations.</li>
+          <li><strong>Delivering Accurate Schedules:</strong> Refreshing timetable data, transit notices, and fare calculations.</li>
+          <li><strong>App Performance &amp; Stability:</strong> Identifying crashes, memory leaks, and UI rendering glitches across different device configurations.</li>
+          <li><strong>User Support &amp; Communication:</strong> Responding directly to technical support queries, schedule corrections, or data requests submitted to our contact email.</li>
+          <li><strong>Legal &amp; Security Compliance:</strong> Preventing malicious network requests, unauthorized scraping, and adhering to Google Play and Apple App Store compliance guidelines.</li>
+        </ol>
+      </section>
+
+      <!-- Section 9 -->
+      <section id="third-party-services" class="policy-section">
+        <h2 class="section-heading">9. Third-Party Services &amp; SDKs</h2>
+        <p>
+          To deliver reliable map rendering, transit infrastructure data, and app stability, One Indicator integrates select industry-standard SDKs. Each third-party service processes information under their respective privacy policies:
+        </p>
+
+        <div class="table-container">
+          <table class="compliance-table">
+            <thead>
+              <tr>
+                <th>Service / SDK</th>
+                <th>Provider</th>
+                <th>Purpose</th>
+                <th>Data Processed</th>
+                <th>Privacy Documentation</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Google Play Services</strong></td>
+                <td>Google LLC</td>
+                <td>Essential platform APIs, location resolution, and security verification on Android.</td>
+                <td>Device identifiers, IP address, general diagnostic logs.</td>
+                <td><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a></td>
+              </tr>
+              <tr>
+                <td><strong>Google Maps / MapKit</strong></td>
+                <td>Google LLC / Apple Inc.</td>
+                <td>Rendering interactive transit maps, metro lines, and bus stop pins.</td>
+                <td>Ephemeral coordinates, map tile requests.</td>
+                <td><a href="https://cloud.google.com/maps-platform/terms" target="_blank" rel="noopener">Google Maps Privacy</a> / <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple Privacy</a></td>
+              </tr>
+              <tr>
+                <td><strong>Firebase Crashlytics / Analytics</strong></td>
+                <td>Google LLC</td>
+                <td>Anonymous crash reporting and monitoring application stability.</td>
+                <td>Crash traces, device model, OS version, anonymous instance IDs.</td>
+                <td><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase Privacy Notice</a></td>
+              </tr>
+              <tr>
+                <td><strong>Google AdMob</strong> <em>(If ads are enabled)</em></td>
+                <td>Google LLC</td>
+                <td>Displaying contextual, non-personalized banner or interstitial advertisements to support free server and transit data maintenance.</td>
+                <td>Anonymous Advertising ID (GAID/IDFA), coarse device characteristics.</td>
+                <td><a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">Google Advertising Privacy</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- Section 10 -->
+      <section id="information-sharing" class="policy-section">
+        <h2 class="section-heading">10. Information Sharing &amp; Disclosure</h2>
+        <p>
+          We maintain a strict stance regarding user data monetization:
+        </p>
+        <ul>
+          <li><strong>We DO NOT Sell User Data:</strong> We have never sold, rented, leased, or traded any personal or transit data to data brokers, advertisers, or third-party marketing companies, and we never will.</li>
+          <li><strong>No Third-Party Profiling:</strong> We do not track users across other apps or websites for targeted behavioural advertising.</li>
+          <li><strong>Legal Requirements:</strong> We will only disclose information if strictly compelled by applicable laws, court orders, or governmental regulations under Indian jurisdiction, and only to the minimum extent required by law.</li>
+        </ul>
+      </section>
+
+      <!-- Section 11 -->
+      <section id="advertising" class="policy-section">
+        <h2 class="section-heading">11. Advertising Practices &amp; Advertising ID Compliance</h2>
+        <p>
+          To keep One Indicator completely free for commuters across Pune, the application may display non-intrusive advertisements served through Google AdMob or authorized ad networks.
+        </p>
+        <ul>
+          <li><strong>Non-Personalized Ads:</strong> Advertisements shown within the app are prioritized to be contextual and non-personalized. We do not use sensitive categories or personal information to serve targeted advertisements.</li>
+          <li><strong>Google Play Advertising ID Policy:</strong> The advertising identifier (AAID / GAID on Android, IDFA on iOS) is accessed solely in compliance with Google Play's <em>Developer Program Policy on Advertising ID</em>. If you reset or delete your advertising ID in your Android or iOS settings, the application respects your device-level choice immediately.</li>
+          <li><strong>Opting Out:</strong>
+            <ul>
+              <li>On Android (12+): Go to <em>Settings &gt; Privacy &gt; Ads &gt; Delete advertising ID</em>.</li>
+              <li>On iOS: Go to <em>Settings &gt; Privacy &amp; Security &gt; Tracking</em> and toggle off <em>"Allow Apps to Request to Track"</em>.</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Section 12 -->
+      <section id="data-security" class="policy-section">
+        <h2 class="section-heading">12. Data Security &amp; Encryption</h2>
+        <p>
+          We implement rigorous administrative, technical, and physical safeguards to protect all data processed by the application:
+        </p>
+        <ul>
+          <li><strong>Encryption in Transit:</strong> All network communications with our servers, timetable feeds, and third-party APIs are encrypted using modern Transport Layer Security (<strong>HTTPS / TLS 1.3</strong>). Plaintext (HTTP) traffic is strictly blocked.</li>
+          <li><strong>Sandboxed Local Storage:</strong> User preferences, offline timetable caches, and bookmarks are stored within the secure internal application sandbox on Android and iOS, preventing other applications from accessing the files.</li>
+          <li><strong>No Credential Vulnerabilities:</strong> Because the application does not utilize user passwords, login credentials, or financial payment details, there is zero risk of password credential leaks or credit card exposure from our app.</li>
+        </ul>
+      </section>
+
+      <!-- Section 13 -->
+      <section id="retention-deletion" class="policy-section">
+        <h2 class="section-heading">13. Data Retention &amp; Deletion Mechanisms</h2>
+        <p>
+          Our retention policies adhere to the principle that data is kept only as long as necessary for its intended purpose:
+        </p>
+        <ul>
+          <li><strong>Ephemeral Location Data:</strong> Location coordinates used to calculate nearby stops exist only in volatile system memory (RAM) during calculation and are discarded immediately afterward.</li>
+          <li><strong>Offline Timetables &amp; Search Cache:</strong> Stored on your device until refreshed with new schedule updates or until you clear application storage.</li>
+          <li><strong>Diagnostic &amp; Crash Reports:</strong> Retained anonymously on Google Cloud / Firebase Crashlytics servers for a maximum of 90 days before automated deletion.</li>
+          <li><strong>Immediate Local Deletion:</strong> You can purge all cached data and stored preferences at any time by clearing the application's storage in your device settings or by uninstalling the application.</li>
+        </ul>
+      </section>
+
+      <!-- Section 14 -->
+      <section id="account-deletion" class="policy-section">
+        <h2 class="section-heading">14. Account Deletion &amp; Data Erasure (Store Requirement)</h2>
+        <p>
+          In compliance with <strong>Google Play's Account Deletion Policy</strong> and <strong>Apple App Store Guideline 5.1.1(v)</strong>:
+        </p>
+        <div class="highlight-card">
+          <p><strong>Account Status: No Account Required</strong></p>
+          <p>
+            One Indicator is designed for frictionless, anonymous commuter access. <strong>The application does not have an account creation or user registration system.</strong> Because no accounts are created, there are no remote user accounts, passwords, or stored user profiles to delete.
+          </p>
+        </div>
+        <p>
+          If you wish to delete all data generated by your use of the application from your device:
+        </p>
+        <ol>
+          <li><strong>On Android:</strong> Open <em>Settings &gt; Apps &gt; One Indicator &gt; Storage &amp; Cache &gt; Clear Storage</em>. This immediately erases all locally saved routes, favorites, search history, and cached data.</li>
+          <li><strong>On iOS:</strong> Long-press the One Indicator app icon, tap <em>"Remove App"</em>, and select <em>"Delete App"</em>. iOS completely removes all associated app sandbox data.</li>
+          <li><strong>Support Inquiries &amp; Deletion Requests:</strong> If you have previously communicated with developer support via email and wish for your email thread or feedback to be erased from our mailbox, you may send a deletion request to:
+            <br>
+            <a class="action-button" href="mailto:pranavpande2609@gmail.com?subject=Data%20Deletion%20Request%20-%20One%20Indicator">Send Data Deletion Request Email</a>
+          </li>
+        </ol>
+      </section>
+
+      <!-- Section 15 -->
+      <section id="childrens-privacy" class="policy-section">
+        <h2 class="section-heading">15. Children's Privacy</h2>
+        <p>
+          One Indicator provides general public transport information suitable for commuters of all ages. However:
+        </p>
+        <ul>
+          <li>The application does not target, market to, or knowingly collect personal information from children under the age of 13 (or under 16 in applicable European jurisdictions).</li>
+          <li>Because no accounts or personal details are collected, children cannot publicly share personal data within the application.</li>
+          <li>If a parent or guardian becomes aware that a child has provided us with personal information (such as via an email inquiry), please contact us at <a href="mailto:pranavpande2609@gmail.com">pranavpande2609@gmail.com</a>, and we will promptly delete that information from our records.</li>
+        </ul>
+      </section>
+
+      <!-- Section 16 -->
+      <section id="user-rights" class="policy-section">
+        <h2 class="section-heading">16. User Privacy Rights (DPDPA, GDPR &amp; CCPA)</h2>
+        <p>
+          Depending on your jurisdiction, you possess specific legal rights regarding your personal data:
+        </p>
+        <ul>
+          <li><strong>Right to Know / Access:</strong> You have the right to request confirmation of whether any of your personal data is processed.</li>
+          <li><strong>Right to Correction / Rectification:</strong> You can request corrections to any inaccurate data.</li>
+          <li><strong>Right to Erasure ("Right to be Forgotten"):</strong> You have the right to request deletion of your data.</li>
+          <li><strong>Right to Withdraw Consent:</strong> You may withdraw permission for location access at any moment via your device settings.</li>
+          <li><strong>Right to Grievance Redressal:</strong> In accordance with India's <strong>Digital Personal Data Protection Act (DPDPA 2023)</strong>, you have the right to readily accessible grievance redressal mechanisms regarding personal data processing.</li>
+        </ul>
+        <p>
+          To exercise any of these rights, contact our Privacy &amp; Grievance Contact at <a href="mailto:pranavpande2609@gmail.com">pranavpande2609@gmail.com</a>. We will respond within 30 days without any fee.
+        </p>
+      </section>
+
+      <!-- Section 17 -->
+      <section id="international-transfers" class="policy-section">
+        <h2 class="section-heading">17. International Data Transfers</h2>
+        <p>
+          Our application operates primarily in Pune, India. Third-party infrastructure providers (such as Google Cloud, Firebase, and GitHub Pages) maintain secure global server networks. When data is transferred internationally (for example, anonymous crash telemetry processed by Google servers), it is protected under standardized international data transfer mechanisms, including standard contractual clauses (SCCs) and robust encryption.
+        </p>
+      </section>
+
+      <!-- Section 18 -->
+      <section id="google-play-safety" class="policy-section">
+        <h2 class="section-heading">18. Google Play Data Safety Declaration Reference</h2>
+        <p>
+          This section provides the exact technical mapping for the <strong>Google Play Console Data Safety form</strong> for developers and Google review teams:
+        </p>
+
+        <div class="table-container">
+          <table class="compliance-table">
+            <thead>
+              <tr>
+                <th>Data Category</th>
+                <th>Data Type</th>
+                <th>Collected?</th>
+                <th>Shared?</th>
+                <th>Purpose</th>
+                <th>Optional?</th>
+                <th>Encrypted in Transit?</th>
+                <th>Deletion Mechanism</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Location</strong></td>
+                <td>Approximate Location &amp; Precise Location</td>
+                <td>Yes (Foreground only)</td>
+                <td>No</td>
+                <td>App Functionality (finding nearest bus/metro stops)</td>
+                <td><span class="tag-optional">Yes (Optional)</span></td>
+                <td>Yes (HTTPS)</td>
+                <td>Ephemeral in RAM; not stored</td>
+              </tr>
+              <tr>
+                <td><strong>App Info &amp; Performance</strong></td>
+                <td>Crash logs, Diagnostics</td>
+                <td>Yes (Anonymous)</td>
+                <td>No (Handled by Firebase/Google)</td>
+                <td>Analytics, App stability &amp; Bug fixing</td>
+                <td><span class="tag-optional">Optional</span></td>
+                <td>Yes (HTTPS)</td>
+                <td>Automatically purged within 90 days</td>
+              </tr>
+              <tr>
+                <td><strong>Device / Other IDs</strong></td>
+                <td>Device or other IDs (Advertising ID)</td>
+                <td>Yes (If ads enabled)</td>
+                <td>Shared with AdMob</td>
+                <td>Advertising, Fraud Prevention</td>
+                <td><span class="tag-optional">Optional</span></td>
+                <td>Yes (HTTPS)</td>
+                <td>Can be reset/deleted in OS Settings</td>
+              </tr>
+              <tr>
+                <td><strong>Personal Info</strong></td>
+                <td>Name, Email, Phone, Address</td>
+                <td><strong>NO</strong></td>
+                <td><strong>NO</strong></td>
+                <td>N/A</td>
+                <td>N/A</td>
+                <td>N/A</td>
+                <td>Not collected</td>
+              </tr>
+              <tr>
+                <td><strong>Financial Info</strong></td>
+                <td>Credit Card, Bank details</td>
+                <td><strong>NO</strong></td>
+                <td><strong>NO</strong></td>
+                <td>N/A</td>
+                <td>N/A</td>
+                <td>N/A</td>
+                <td>Not collected</td>
+              </tr>
+              <tr>
+                <td><strong>Messages / Contacts</strong></td>
+                <td>SMS, Contact list</td>
+                <td><strong>NO</strong></td>
+                <td><strong>NO</strong></td>
+                <td>N/A</td>
+                <td>N/A</td>
+                <td>N/A</td>
+                <td>Not collected</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- Section 19 -->
+      <section id="apple-privacy" class="policy-section">
+        <h2 class="section-heading">19. Apple App Store Privacy Nutrition Labels Reference</h2>
+        <p>
+          For Apple App Store Connect review compliance under Guideline 5.1:
+        </p>
+        <div class="highlight-card">
+          <ul>
+            <li><strong>Data Used to Track You:</strong> <em>None.</em> One Indicator does not track users across apps and websites owned by other companies.</li>
+            <li><strong>Data Linked to You:</strong> <em>None.</em> No personal information or identifiers are linked to user identities.</li>
+            <li><strong>Data Not Linked to You:</strong>
+              <ul>
+                <li><strong>Location:</strong> Coarse Location &amp; Precise Location (App Functionality, non-linked).</li>
+                <li><strong>Diagnostics:</strong> Crash Data &amp; Performance Data (Analytics &amp; App Functionality, non-linked).</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Section 20 -->
+      <section id="policy-updates" class="policy-section">
+        <h2 class="section-heading">20. Policy Updates &amp; Contact Information</h2>
+        <p>
+          We may update this Privacy Policy from time to time to reflect changes in our transit features, third-party SDK updates, or applicable legal and regulatory requirements. Any updates will be published immediately at this URL:
+        </p>
+        <p>
+          <a href="https://wittyrusher.github.io/oneindicatorprivacy/" target="_blank" rel="noopener">https://wittyrusher.github.io/oneindicatorprivacy/</a>
+        </p>
+        <p>
+          The "Effective Date" at the top of this page indicates the date of the latest revisions. Continued use of the Application following any updates signifies your acceptance of the revised policy.
+        </p>
+
+        <h3 class="sub-heading">Privacy Officer &amp; Support Contact</h3>
+        <p>
+          If you have questions, comments, feedback, or concerns regarding this Privacy Policy, our data practices, or store compliance inquiries, please contact our developer directly:
+        </p>
+        <div class="highlight-card">
+          <p><strong>Contact Person:</strong> Pranav Pande</p>
+          <p><strong>Email:</strong> <a href="mailto:pranavpande2609@gmail.com">pranavpande2609@gmail.com</a></p>
+          <p><strong>Developer Profile:</strong> <a href="https://github.com/wittyrusher" target="_blank" rel="noopener">https://github.com/wittyrusher</a></p>
+          <p><strong>Response Time:</strong> Typically within 24 to 48 hours.</p>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <p>&copy; 2026 <strong>One Indicator &ndash; Pune Public Transport</strong>. Developed by Pranav Pande.</p>
+      <p class="footer-legal">
+        Designed for Pune &amp; Pimpri-Chinchwad Commuters &bull; Fully Compliant with Google Play &amp; Apple App Store Privacy Standards
+      </p>
+      <p style="margin-top: 0.5rem;">
+        <a href="#introduction">Back to Top &uarr;</a> &bull; 
+        <a href="mailto:pranavpande2609@gmail.com">Contact Developer</a> &bull; 
+        <a href="https://github.com/wittyrusher/oneindicatorprivacy" target="_blank" rel="noopener">GitHub Repository</a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Floating Back to Top Button -->
+  <a href="#introduction" id="backToTop" title="Back to top" aria-label="Back to top">&uarr;</a>
+
+</body>
+</html>
